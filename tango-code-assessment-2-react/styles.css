@@ -1,0 +1,164 @@
+:root {
+	--light-green: #3FB34A;
+	--dark-green: #106838;
+	--background: #EFEFF2;
+	--dark-grey: #343434;
+	--light-grey: #9B9B9B;
+	--salmon: #EC4F38;
+	--orange: #F88200;
+}
+
+body {
+	font-family: Helvetica;
+	background-color: var(--background);
+}
+
+.header-bar {
+	width: 100%;
+	background-color: #000000;
+	height: 56px;
+}
+
+.top-bar {
+	display: flex;
+	max-height: 500px;
+	height: 100%;
+	background-color: #FFFFFF;
+}
+
+.image-container {
+	width: 71%;
+	float:left;
+	background-color: #FFFFFF;
+}
+
+#emphasized-image {
+	float: left;
+	width: 100%;
+	max-height: 500px;
+}
+
+.high-description {
+	width: 19%;
+	float: left;
+	background-color: #FFFFFF;
+	padding-left: 5%;
+	padding-right: 5%;
+	height: 100%;
+}
+
+.car-title {
+	font-size: 40px;
+	font-weight: bolder;
+	color: var(--dark-grey);
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+
+.sub-info {
+	font-size: 20px;
+	font-weight: bold;
+	color: var(--dark-grey);
+	margin-left: 5%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.sub-title {
+	font-size: 14px;
+	font-weight: lighter;
+	color: var(--light-grey);
+}
+
+.sub-image {
+	width: 15%;
+	height: 100%;
+	max-height: 150px;
+	float: left;
+	padding-right: .5%;
+	padding-left: .5%;
+}
+
+.identifiers h4 {
+	font-size: 14px;
+	font-weight: lighter;
+	color: var(--light-grey);
+}
+
+.lower-images {
+	width:100%;
+	float: left;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.detail-description {
+	width:34%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 3%;
+	padding-right: 3%;
+	float:left;
+	background-color: #FFFFFF;
+}
+
+.lower-title {
+	color: var(--light-grey);
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.lower-sub-info {
+	float: right;
+	padding-right: 5%;
+	font-size: 20px;
+	font-weight: bold;
+	color: var(--dark-grey);
+}
+
+.lower-sub-title {
+	padding-left: 5%;
+	float:left;
+	font-weight: lighter;
+	color: var(--light-grey);
+	font-size: 18px;
+}
+
+.horizontal-divide-line {
+	width: 100%;
+	border-top: solid;
+	border-width: 2px;
+	float:left;
+	margin: auto;
+	border-color: var(--light-grey);
+}
+
+.bottom-regulator {
+	width:100%;
+}
+
+.orange-button {
+	background-color: var(--orange);
+	float:right;
+	width: 5%;
+	height: 100%;
+	border-left: solid;
+	border-width: 3px;
+	transform: skew(-20deg);
+}
+
+.orange-button img {
+	transform:none;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+.search-image {
+	float:right;
+	margin-top:.75%;
+	margin-right: 1.5%;
+}

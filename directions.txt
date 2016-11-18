@@ -1,0 +1,19 @@
+Directions to Run;
+
+SQL;
+Create a schema in a MySQL DBMS (I used MySQL Workbench). 
+Run the sql-structure script in it. 
+Change the username, password, and schema name in server.js to match the newly created DBMS and a user who is allowed to query data out of it.
+
+node.js;
+Bring a command line prompt to the tangocode-assessment-2 folder.
+Run an npm install.
+Start the service up with npm start. If it can query into the MySQL database it will go live at port 3000.
+
+React.js;
+Navigate to the tangocode-assessment-2-react folder.
+Run an npm install for axiom (command is "npm install -g axiom").
+Start a python http.server; in windows the statement is "py -m http.server", but I believe it's different on unix.
+The website is now live on port 8000
+
+Known Chrome incompatibility; Chrome takes issue with pulling data from a localhost source into another localhost server. I installed an addon to fix this, due to time constraints, but I would be interested in finding out how to fix it within the app.
